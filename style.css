@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 1rem;
+
+}
+.content{
+    text-align: right;
+    
+}
+input[type=text],
+textarea{
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin: 10px;
+    width: 95px;
+    text-align: right;
+    
+}
+
+input[type=date]{
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin: 10px;
+    
+}
+input[type=checkbox]{
+    border: 1px solid rgba(0, 0, 0, .1);
+    width: 1rem;    
+    height: 1rem;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    line-height: 2rem;
+    vertical-align: auto;
+        padding-right: 1rem;
+
+   
+}
+p{
+    font-weight: bolder;
+}
